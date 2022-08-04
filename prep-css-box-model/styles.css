@@ -8,9 +8,6 @@ button {
   margin: 20px;
   padding: 10px;
   border-width: 3px;
-  p.double { border-style: double; }
-
   border-color: darkgray;
 }
-
-/* 👇 YOUR CODE HERE 👇 */
+p.double { border-style: double; }
