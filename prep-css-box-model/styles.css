@@ -9,5 +9,6 @@ button {
   padding: 10px;
   border-width: 3px;
   border-color: darkgray;
+  border-style: double;
 }
 p.double { border-style: double; }
