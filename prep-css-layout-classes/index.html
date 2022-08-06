@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: left;
+    }
+    h2 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100%/3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Indian Jones</h2>
+  <div class="container">
+
+    <div class="row">
+      <div class="column">
+        <img src="https://i.ibb.co/1XPvZXk/Screen-Shot-2022-08-05-at-8-35-48-PM.png" width="200">
+        <h3>Indiana Jones 1</h3>
+        <p>testtesttesttesttesttesttesttesttest<br>
+          testtesttesttesttesttesttesttesttest<br>
+          testtesttesttesttesttesttesttesttest<br>
+          testtesttesttesttesttesttesttesttest<br>
+          testtesttesttesttesttesttesttesttest<br>
+          testtesttesttesttesttesttesttesttest<br>
+      </div>
+
+      <div class="column">
+        <img src="https://i.ibb.co/y00hz59/Screen-Shot-2022-08-05-at-8-35-43-PM.png" width="200">
+        <h3>Indiana Jones 2</h3>
+        <p>testtesttesttesttesttesttesttesttest<br>
+          testtesttesttesttesttesttesttesttest<br>
+          testtesttesttesttesttesttesttesttest<br>
+          testtesttesttesttesttesttesttesttest<br>
+          testtesttesttesttesttesttesttesttest<br>
+          testtesttesttesttesttesttesttesttest<br>
+      </div>
+
+      <div class="column">
+        <img src="https://i.ibb.co/nqG5mwQ/Screen-Shot-2022-08-05-at-8-35-35-PM.png" width="200">
+        <h3>Indiana Jones 3</h3>
+        <p>testtesttesttesttesttesttesttesttest<br>
+          testtesttesttesttesttesttesttesttest<br>
+          testtesttesttesttesttesttesttesttest<br>
+          testtesttesttesttesttesttesttesttest<br>
+          testtesttesttesttesttesttesttesttest<br>
+          testtesttesttesttesttesttesttesttest<br>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
