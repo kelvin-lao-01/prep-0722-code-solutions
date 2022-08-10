@@ -11,7 +11,7 @@ var convertHoursToMinutesResults = convertHoursToMinutes(2);
 console.log('convertHoursToMinutes Exercise', convertHoursToMinutesResults);
 
 function getGreeting(name) {
-  return 'Hello World!';
+  return 'Hello ' + name + '!';
 }
 var getGreetingResults = getGreeting('World');
 console.log('getGreeting Exercise', getGreetingResults);
@@ -41,13 +41,13 @@ var getCircleCircumferenceResults = getCircleCircumference(5);
 console.log('getCircleCircumference Exercise', getCircleCircumferenceResults);
 
 function getFullName(firstName, lastName) {
-  return 'Juan' + ' Ramirez';
+  return firstName + ' ' + lastName;
 }
 var getFullNameResults = getFullName('Juan', 'Ramirez');
 console.log('getFullName Exercise', getFullNameResults);
 
 function cube(number) {
-  return 5 * 5 * 5;
+  return number * number * number;
 }
 var cubeResults = cube(5);
 console.log('cube Exercise', cubeResults);
