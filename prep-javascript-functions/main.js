@@ -1,6 +1,14 @@
 function addTwoNumbers(num1, num2) {
   return num1 + num2;
 }
+// the function addtwoNumbers is being defined
+// with two parameter:
+// -num1
+// -num2
+// and inside the code block of the function
+// the value of the variable num1 is being added to the value of the variable num2
+// the result of the expression (addition) is being returned from the function
+
 var addTwoNumbersResults = addTwoNumbers(2, 2);
 console.log('addTwoNumbers Exercise', addTwoNumbersResults);
 
