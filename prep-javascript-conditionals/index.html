@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Conditionals</title>
+</head>
+<body>
+  <script>
+var age = '33';
+console.log(age);
+
+// - value 33 being assigned to the variable age.
+
+// 1. the if statement
+// 2. the condition (expression)
+// 3. a code block
+// 4. with an optional else statement
+// 5. log method of the console is being called with a string of ' '
+
+if (age < 18) {
+  age = 'A Child';
+} else {
+  age = 'A Adult';
+}
+console.log(age);
+
+var student1Score = '44';
+if (student1Score >= 70) {
+  student1Score = 'Congrats you received a passing grade!';
+} else {
+  student1Score = 'Oh no you failed!';
+}
+console.log(student1Score);
+
+var student2Score = '100';
+if (student2Score < 60) {
+  console.log('F');
+} else if (student2Score < 70) {
+  console.log('D');
+} else if (student2Score < 80) {
+  console.log('C');
+} else if (student2Score < 90) {
+  console.log('B');
+} else if (student2Score < 100) {
+  console.log('A');
+} else {
+  console.log('A++');
+}
+console.log(student2Score);
+
+var season = 'spring';
+
+if (season === 'summer') {
+  console.log('its hot today');
+} else {
+  console.log('please enter a valid season');
+}
+
+if (season === 'spring') {
+  console.log('the flowers are blooming');
+} else {
+  console.log('please enter a valid season');
+}
+
+if (season === 'autumn') {
+  console.log('the leaves are changing colors');
+} else {
+  console.log('please enter a valid season');
+}
+
+if (season === 'winter') {
+  console.log('its cold today');
+} else {
+  console.log('please enter a valid season');
+}
+
+var dayOfTheWeek = 'Monday';
+if (dayOfTheWeek === 'Saturday' || dayOfTheWeek === 'Sunday') {
+  dayOfTheWeek = 'have a good weekend!';
+} else {
+  console.log('Its a weekday!');
+}
+  </script>
+</body>
+</html>
